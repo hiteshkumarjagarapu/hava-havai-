@@ -1,0 +1,21 @@
+.bg {
+  background-color: white;
+}
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 30%;
+  padding: 20px;
+}
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
